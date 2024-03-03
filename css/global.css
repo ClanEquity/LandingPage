@@ -1,0 +1,35 @@
+.myContainer{
+    max-width: 1100px !important;
+    margin: 0 auto !important;
+}
+
+.myBtn{
+    margin-top: 1.25rem !important;
+    padding: 0.8rem 3rem !important;
+    border-radius: 5px !important;
+    letter-spacing: 0.5px !important;
+}
+.myBtn-dark{
+    background: #3f474e !important;
+}
+.myBtn-dark:hover{
+    color: #3f474e !important;
+    background-color: #fff !important;
+    border: 0.5px solid #3f474e !important;
+}
+
+/* Form */
+
+.form-group{
+    padding: 0.25rem  0 !important;
+}
+.form-group label{
+    display: block  !important;
+}
+.myForm-control {
+    font-size: 1rem  !important;
+    padding: 0.25rem  !important;
+    width: 100%   !important;
+    resize: none;
+    border-radius: 5px  !important;
+}

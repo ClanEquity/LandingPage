@@ -1,0 +1,169 @@
+* {
+    margin: 0 !important;
+    padding: 0 !important;
+    box-sizing: border-box !important;
+}
+a{
+    text-decoration: none !important;
+    color: #fff !important; 
+}
+
+
+/* Navbar Kısmı */ 
+#navbar{
+    padding: 0 0.75rem !important;
+    height: 70px !important;
+}
+
+#navbar ul li a {
+    padding: 0.5rem !important;
+}
+#navbar ul li a:hover{
+    background: #3f474e;
+    border-radius: 4px;
+}
+
+/* Home Kısmı */ 
+
+#home {
+    display: flex;
+    flex-direction: column !important;
+    justify-content: center !important;
+    align-items: center !important;
+    padding: 2rem !important;
+    border-bottom:  1px solid grey !important;
+}
+#home img {
+    max-width: 100% !important;
+    height: auto !important;
+    border-radius: 100% !important;
+}
+#home .name h2{
+    margin-bottom: 0.75rem !important;
+}
+#home .name p {
+    opacity: 0.6 !important;
+    font-style: italic;
+}
+
+/* Kaynaklar kısmı */ 
+
+#sources {
+    color: #fff !important;
+    padding: 1rem !important;
+}
+#sources .items {
+    display:  flex !important;
+    justify-content: space-between !important;
+    align-items: center !important;
+}
+#sources .items .item {
+    width: 33% !important;
+    text-align: center !important;
+    padding: 0.5rem !important;
+}
+#sources .items .item:hover{
+    color: #7cff87 !important;
+}
+
+#sources .items .item ul li{
+    margin-top: 5px !important;
+}
+#sources .items .item ul li a{
+   opacity: 0.6 !important;
+   font-style: italic;
+}
+#sources .items .item ul li a:hover{
+    color: #7cff87 !important;
+    opacity: 1 !important;
+}
+
+/* Hakkımda kısmı */
+#hakkımda{
+    color: #3f474e !important;
+    pad: 1rem !important;
+}
+#hakkımda h3{
+    margin-top: 15px !important;
+}
+.aboutMe{
+    display: flex !important;
+    flex-direction: column !important;
+    padding: 1rem !important;
+}
+.aboutMe .hakkımda{
+    display: flex !important;
+    padding: 0.5rem !important;
+    margin-bottom: 0.5rem !important;
+  
+}
+.aboutMe .hakkımda .hakkımdaImage{
+    margin-right: 2rem !important;
+    position: relative !important;
+}
+.aboutMe .hakkımda .hakkımdaImage img {
+    border-radius: 5px !important;
+    border: 1px solid black !important;
+}
+.aboutMe .hakkımda .hakkımdaImage span{
+    background: #cf0000 !important;
+    padding: 0.25rem !important;
+    color : #fff !important;
+    border-radius: 4px !important;
+    position: absolute !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 50% !important;
+    text-align: center !important;
+}
+.aboutMe .hakkımda .hakkımdaInfo .title{
+    letter-spacing: 1.2px !important;
+    font-weight: 700 !important;
+    margin-bottom: 0.25rem !important;
+}
+.aboutMe .hakkımda .hakkımdaInfo .description{
+    letter-spacing: 1.2px !important;
+    margin-bottom: 0.25rem !important;
+    opacity: 0.6 !important;
+}
+.aboutMe .hakkımda .hakkımdaInfo .instructor {
+    font-size:  0.8rem !important;
+    margin-bottom: 0.25rem !important;
+    opacity: 0.6 !important;
+}
+.aboutMe .hakkımda .hakkımdaInfo .rating {
+    font-size:  0.8rem !important;
+    margin-bottom: 0.25rem !important;
+    opacity: 0.6 !important;
+}
+
+/* Contact */
+#contact {
+    padding: 1rem  !important;
+}
+#contact .contact-form {
+    max-width: 700px  !important;
+    margin-left: auto  !important;
+    margin-right: auto  !important;
+    display: flex  !important;
+    flex-direction: column;
+}
+
+.formUl{
+    display: flex !important;
+    margin-top: 1rem !important;
+    align-self: flex-end !important;
+    flex-direction: column;
+}
+
+.formUl li{
+    letter-spacing: 5px !important;
+    font-size: 0.7rem !important;
+}
+
+.formUl li:hover{
+    color: greenyellow  !important;
+}
+.formUl li i:hover{
+    color: greenyellow  !important;
+}

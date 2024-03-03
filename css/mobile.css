@@ -1,0 +1,29 @@
+#navbar {
+    flex-direction: column !important;
+    padding-top: 0.5rem !important;
+    padding-bottom: 1rem !important;
+    overflow: hidden !important;
+    height: 100px !important;
+}
+
+#sources .items {
+    flex-direction: column !important;
+}
+#sources .items .item{
+    width: 100% !important;
+}
+
+.aboutMe .hakkımda{
+    flex-direction: column;
+}
+
+.aboutMe .hakkımda .hakkımdaImage span{
+    background: #cf0000 !important;
+    color : #fff !important;
+    border-radius: 4px !important;
+    position: absolute !important;
+    top: 0px !important;
+    left: 0px !important;
+    width: 75px !important;
+    text-align: center !important;
+}
